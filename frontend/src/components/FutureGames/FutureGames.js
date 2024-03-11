@@ -44,7 +44,7 @@ const FutureGames = () => {
             <div className="image-logo">
               {game.team1Logo && (
                 <img
-    src={`/games/${game.team1Logo.imageName}`}
+  src={`https://asociatia-sportiva-rxs.onrender.com/games/${game.team1Logo.imageName}`}
                   className="team1-logo"
                   alt="Team 1 Logo"
                 />
