@@ -119,7 +119,8 @@ const FutureGames = () => {
     };
     fetchGames();
   }, []);
-
+console.log(games);
+  
   return (
     <div className="games">
       <div className="future-games-container">
@@ -138,7 +139,7 @@ const FutureGames = () => {
             <div className="image-logo">
               {game.team1Logo && (
                 <img
-                  src={`http://localhost:5001/games/${game.team1Logo.imageName}`}
+                  src={`/games/${game.team1Logo.imageName}`}
                   className="team1-logo"
                   alt="Team 1 Logo"
                 />
