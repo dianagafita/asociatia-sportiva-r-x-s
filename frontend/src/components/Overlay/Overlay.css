@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@500&display=swap");
+
+.container {
+  background: url("backgroud-overlay.png");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-image {
+  animation: overlay 1s ease-in-out forwards;
+  height: 5rem;
+  width: 5rem;
+  align-content: center;
+}
+
+.logo-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  border-radius: 3rem;
+}
+
+.text-container {
+  animation: overlay 1s ease-in-out forwards;
+  font-family: "Smooch Sans", sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.text-conatiner h1 {
+  margin: 1rem 0;
+}
+.text-conatiner h1 > span {
+  font-weight: 300;
+  font-size: 1.7rem;
+}
+
+.hide-container {
+  animation: overlayout 3s ease-out;
+}
+
+@keyframes overlay {
+  0% {
+    transform: translateY(-10px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(10px);
+    opacity: 1;
+  }
+}
+
+@keyframes overlayout {
+  0% {
+    transform: translateY(0);
+    opacity: 0.1;
+  }
+  100% {
+    transform: translateY(-700px);
+    opacity: 0;
+  }
+}

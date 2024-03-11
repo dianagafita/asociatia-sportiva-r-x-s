@@ -1,0 +1,144 @@
+@font-face {
+  font-family: "DrioidSansMono";
+  src: url("./droid-sans-mono.regular.ttf");
+}
+
+@font-face {
+  font-family: "LaLiga";
+  src: url("./FontsFree-Net-Futura-Maxi-W00-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Droid Sans Mono W07 Bold";
+  src: url("https://db.onlinewebfonts.com/t/c4d7ee84813746a3ea423bb05a3b4dcc.eot");
+  src: url("https://db.onlinewebfonts.com/t/c4d7ee84813746a3ea423bb05a3b4dcc.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/c4d7ee84813746a3ea423bb05a3b4dcc.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/c4d7ee84813746a3ea423bb05a3b4dcc.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/c4d7ee84813746a3ea423bb05a3b4dcc.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/c4d7ee84813746a3ea423bb05a3b4dcc.svg#Droid Sans Mono W07 Bold")
+      format("svg");
+}
+
+@import url(https://db.onlinewebfonts.com/c/f965a453da47f8f37e16e1b0ab908b4a?family=BebasNeueRegular);
+
+#events-page {
+  min-height: calc(100vh - 10rem);
+}
+
+#games-section {
+  margin-top: 3.9rem;
+  background-color: var(--main-color);
+  height: 350px;
+}
+
+.event-group-container {
+  /* font-size: 1.5rem;
+  font-weight: bold; */
+  display: grid;
+  grid-template-columns: repeat(11, 290px) 0.1px;
+  grid-template-rows: 314px;
+  padding: 0 1rem;
+  padding-top: 1rem;
+  -webkit-box-align: center;
+  align-items: center;
+  overflow-x: auto;
+  gap: 1.5rem;
+  font-family: "BebasNeueRegular";
+  font-weight: bold;
+}
+
+.fun {
+  grid-template-columns: repeat(4, 290px) 0.1px;
+}
+
+.group-container {
+  height: 250px;
+  width: 280px;
+  background: center/cover no-repeat border-box;
+  margin: auto;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding: 1rem;
+  box-shadow: 0 3px 5px 1px rgba(75, 75, 75, 0.3);
+}
+
+.gradient-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(20, 20, 20, 0.7),
+    rgba(26, 25, 25, 0.7)
+  );
+}
+.group-container h3 {
+  font-size: 3rem;
+  margin: 0.5rem 0;
+  color: white;
+}
+
+.group-container a {
+  color: white;
+  text-decoration: none;
+  text-align: end;
+}
+
+.group-container a:hover {
+  color: var(--main-color);
+}
+
+#fun-events-section {
+  background-color: var(--second-color);
+  height: 350px;
+}
+
+.events-title {
+  font-size: 2.5rem;
+}
+
+.mec span:first-of-type {
+  color: var(--second-color);
+  font-size: 4rem;
+}
+
+.rec span:first-of-type,
+.rec .s {
+  color: white;
+  font-size: 4rem;
+}
+
+.rec {
+  color: var(--main-color);
+}
+
+@media (max-width: 465px) {
+  .event-group-container {
+    grid-template-columns: 170px repeat(11, 270px);
+    gap: 2rem;
+  }
+
+  .events-title {
+    font-size: 2.5rem;
+  }
+
+  .mec span:first-of-type {
+    font-size: 3.5rem;
+  }
+
+  .rec span:first-of-type,
+  .rec .s {
+    font-size: 3.5rem;
+  }
+  .group-container h3 {
+    font-size: 2.5rem;
+  }
+}

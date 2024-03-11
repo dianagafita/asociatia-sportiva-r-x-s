@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f43737bf.css",
+    "main.js": "/static/js/main.7bb3c524.js",
+    "static/media/s.png": "/static/media/s.8fa326f9bea52055ffcb.png",
+    "static/media/r.png": "/static/media/r.3778bc44b079e03b4443.png",
+    "static/media/caritate.jpg": "/static/media/caritate.79cb7a771b0cb9c724fd.jpg",
+    "static/media/2.jpg": "/static/media/2.1e3e3c7bb6a3fe92638f.jpg",
+    "static/media/d.jpeg": "/static/media/d.17dadf669ed6a1c22fec.jpeg",
+    "static/media/relaxare.jpg": "/static/media/relaxare.9ddae46a443176bfc5e4.jpg",
+    "static/media/craciun.jpg": "/static/media/craciun.04a3a5feca0497cef27c.jpg",
+    "static/media/3.jpg": "/static/media/3.6a1b826325de5840ea0c.jpg",
+    "static/media/4.jpg": "/static/media/4.d3ae002fb2e6bffc5395.jpg",
+    "static/media/droid-sans-mono.regular.ttf": "/static/media/droid-sans-mono.regular.43b325d63468602016ce.ttf",
+    "static/media/FontsFree-Net-Futura-Maxi-W00-Bold.ttf": "/static/media/FontsFree-Net-Futura-Maxi-W00-Bold.25f60d69f750f6f3a37b.ttf",
+    "static/media/logo.jpg": "/static/media/logo.22fd62c7d72d180c8721.jpg",
+    "static/media/BebasNeue Regular.woff": "/static/media/BebasNeue Regular.f1af9e532efc748b505a.woff",
+    "static/media/Fontspring-DEMO-coresansc25.otf": "/static/media/Fontspring-DEMO-coresansc25.8ff2fa95b033d9fbfd1f.otf",
+    "static/media/backgroud-overlay.png": "/static/media/backgroud-overlay.f7889259539583e9b4d7.png",
+    "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/index.html",
+    "main.f43737bf.css.map": "/static/css/main.f43737bf.css.map",
+    "main.7bb3c524.js.map": "/static/js/main.7bb3c524.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f43737bf.css",
+    "static/js/main.7bb3c524.js"
+  ]
+}

@@ -1,0 +1,83 @@
+.form-games-container {
+  margin: 1rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  font-family: "CoreSansC";
+  font-weight: bold;
+  background-color: white;
+  height: fit-content;
+  padding: 1.5rem;
+}
+
+.form-games-container input {
+  width: 100%;
+}
+.form-games-container div {
+  margin: 1rem;
+}
+
+.actions {
+  text-align: center;
+}
+
+.form-games-container input[type="file"]::-webkit-file-upload-button,
+.actions button {
+  background-color: var(--main-color);
+  color: white;
+  border: none;
+  border-radius: 1rem;
+}
+
+.actions button {
+  padding: 0.5rem 1rem;
+  margin: 1rem;
+}
+
+.form-games-logo2,
+.form-games-logo1 {
+  text-align: center;
+}
+
+.form-games-container input[type="file"] {
+  text-align: center;
+}
+
+.form-games-container input[type="file"]::-webkit-file-upload-button:hover,
+.actions button:hover {
+  background-color: var(--second-color);
+  color: var(--main-color);
+}
+
+.form-games-container p {
+  margin: 0;
+}
+
+.actions button:hover {
+  transform: scale(1.1);
+  transition: transform 200ms ease-out;
+}
+
+.actions button:active {
+  transform: scale(0.9);
+  transition: transform 200ms ease-out;
+}
+
+.logo-preview {
+  width: 8rem;
+  height: 8rem;
+  object-fit: cover;
+  margin-top: 0.5rem;
+}
+
+@media (min-width: 570px) {
+  .form-games-container {
+    grid-template-columns: repeat(2, auto);
+    column-width: auto;
+  }
+  .actions {
+    grid-column: 1 / span 2;
+  }
+  .actions button {
+    font-size: 1.3rem;
+  }
+}

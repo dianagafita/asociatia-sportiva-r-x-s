@@ -1,0 +1,41 @@
+.reqpass-page {
+  min-height: calc(100vh - 4rem);
+}
+
+.req-pass-form {
+  margin-top: 8rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.req-pass-form input {
+  width: 300px;
+  margin: 0.5rem;
+}
+
+.submit-button {
+  margin: 1rem;
+  border-radius: 1rem;
+  border: none;
+  padding: 0.5rem 1rem;
+  background-color: var(--main-color);
+  color: white;
+}
+
+.submit-button:hover {
+  background-color: var(--second-color);
+  transform: scale(1.1);
+  transition: transform 300ms ease-out;
+}
+
+.submit-button:active {
+  background-color: var(--second-color);
+  transform: scale(0.8);
+  transition: transform 300ms ease-out;
+}
+
+.error-message {
+  color: red;
+}

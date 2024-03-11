@@ -1,0 +1,13 @@
+.admin,
+.content {
+  width: 100vw;
+  height: 100vh;
+}
+.admin {
+  display: flex;
+  position: relative;
+}
+
+.fit-contents {
+  margin-left: 4rem;
+}
